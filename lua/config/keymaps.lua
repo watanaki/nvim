@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 vim.keymap.set("i", "jk", "<Esc>", { desc = "Exit insert mode" })
 vim.keymap.set("v", "jk", "<Esc>", { desc = "Exit visual mode" })
+vim.keymap.set("t", "jk", "<C-\\><C-n>", { desc = "Exit terminal insert mode" })
