@@ -21,6 +21,7 @@ require("lazy").setup({
     -- import/override with your plugins
     { import = "plugins" },
   },
+  
   defaults = {
     -- 自定义插件默认按需加载，减少启动时内存占用
     lazy = true,
